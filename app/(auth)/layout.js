@@ -1,7 +1,12 @@
+// (auth)/layout.js
 import React from 'react'
 
-export const AuthLayout = ({children}) => {
+const AuthLayout = ({ children }) => {
   return (
-    <div className="flex justify-center">{children}</div>
+    <div className="flex justify-center">
+      {children}
+    </div>
   )
 }
+
+export default AuthLayout
